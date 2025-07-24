@@ -17,3 +17,5 @@ services:
         value: https://ia-assistant-crf.onrender.com
       - key: N8N_PROTOCOL
         value: https
+      - key: N8N_BASIC_AUTH_ACTIVE=true
+        value: true
