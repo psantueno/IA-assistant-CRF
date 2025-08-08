@@ -25,15 +25,15 @@ services:
         value: "true"
       - key: DB_TYPE
         value: postgres
-      - key: DB_POSTGRESDB_HOST
+      - key: DB_POSTGRES_HOST
         value: aws-0-sa-east-1.pooler.supabase.com
-      - key: DB_POSTGRESDB_PORT
+      - key: DB_POSTGRES_PORT
         value: "6543"
-      - key: DB_POSTGRESDB_DATABASE
+      - key: DB_POSTGRES_DATABASE
         value: postgres
-      - key: DB_POSTGRESDB_USER
+      - key: DB_POSTGRES_USER
         value: postgres.agtplyqhkygpxzutcswl
-      - key: DB_POSTGRESDB_PASSWORD
+      - key: DB_POSTGRES_PASSWORD
         value: perrodemadera56
-      - key: DB_POSTGRESDB_SSLMODE
+      - key: DB_POSTGRES_SSLMODE
         value: require
