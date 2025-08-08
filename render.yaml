@@ -8,9 +8,9 @@ services:
     plan: free
     envVars:
       - key: N8N_BASIC_AUTH_USER
-        value: seba.antueno@gmail.com
+        value: consultasdoblem@gmail.com
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: admin
+        value: AdminWeb1*
       - key: N8N_HOST
         value: ia-assistant-crf.onrender.com
       - key: WEBHOOK_TUNNEL_URL
@@ -19,3 +19,7 @@ services:
         value: https
       - key: N8N_BASIC_AUTH_ACTIVE
         value: true
+   disk:
+      name: n8n-data
+      mountPath: /home/node/.n8n
+      sizeGB: 1
