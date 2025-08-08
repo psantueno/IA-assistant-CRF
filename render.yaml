@@ -32,7 +32,7 @@ services:
       - key: DB_POSTGRESDB_DATABASE
         value: postgres
       - key: DB_POSTGRESDB_USER
-        value: postgres.kyxgkxmxjnybxrunmqyo
+        value: postgres.agtplyqhkygpxzutcswl
       - key: DB_POSTGRESDB_PASSWORD
         value: perrodemadera56
       - key: DB_POSTGRESDB_SSLMODE
