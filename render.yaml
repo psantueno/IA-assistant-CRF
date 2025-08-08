@@ -11,17 +11,29 @@ services:
         value: consultasdoblem@gmail.com
       - key: N8N_BASIC_AUTH_PASSWORD
         value: AdminWeb1*
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
       - key: N8N_HOST
         value: ia-assistant-crf.onrender.com
       - key: WEBHOOK_URL
         value: https://ia-assistant-crf.onrender.com/
       - key: N8N_PROTOCOL
         value: https
-      - key: N8N_BASIC_AUTH_ACTIVE
-        value: "true"
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
-    disk:
-      name: n8n-data
-      mountPath: /home/node/.n8n
-      sizeGB: 1
+      - key: N8N_RUNNERS_ENABLED
+        value: "true"
+      - key: DB_TYPE
+        value: postgres
+      - key: DB_POSTGRESDB_HOST
+        value: aws-0-sa-east-1.pooler.supabase.com
+      - key: DB_POSTGRESDB_PORT
+        value: "6543"
+      - key: DB_POSTGRESDB_DATABASE
+        value: postgres
+      - key: DB_POSTGRESDB_USER
+        value: postgres.kyxgkxmxjnybxrunmqyo
+      - key: DB_POSTGRESDB_PASSWORD
+        value: perrodemadera56
+      - key: DB_POSTGRESDB_SSLMODE
+        value: require
