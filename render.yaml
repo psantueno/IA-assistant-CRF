@@ -13,13 +13,15 @@ services:
         value: AdminWeb1*
       - key: N8N_HOST
         value: ia-assistant-crf.onrender.com
-      - key: WEBHOOK_TUNNEL_URL
-        value: https://ia-assistant-crf.onrender.com
+      - key: WEBHOOK_URL
+        value: https://ia-assistant-crf.onrender.com/
       - key: N8N_PROTOCOL
         value: https
       - key: N8N_BASIC_AUTH_ACTIVE
-        value: true
-   disk:
+        value: "true"
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "true"
+    disk:
       name: n8n-data
       mountPath: /home/node/.n8n
       sizeGB: 1
