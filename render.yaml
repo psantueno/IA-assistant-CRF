@@ -27,15 +27,15 @@ services:
         value: "perrodemadera"
       - key: DB_TYPE
         value: postgresdb
-      - key: DB_POSTGRES_HOST
+      - key: DB_POSTGRESDB_HOST
         value: db.kyxgkxmxjnybxrunmqyo.supabase.co
-      - key: DB_POSTGRES_PORT
+      - key: DB_POSTGRESDB_PORT
         value: "5432"
-      - key: DB_POSTGRES_DATABASE
+      - key: DB_POSTGRESDB_DATABASE
         value: postgres
-      - key: DB_POSTGRES_USER
+      - key: DB_POSTGRESDB_USER
         value: postgres.agtplyqhkygpxzutcswl
-      - key: DB_POSTGRES_PASSWORD
+      - key: DB_POSTGRESDB_PASSWORD
         value: perrodemadera56
-      - key: DB_POSTGRES_SSL_MODE
+      - key: DB_POSTGRESDB_SSL_MODE
         value: require
