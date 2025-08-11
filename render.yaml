@@ -30,7 +30,7 @@ services:
       - key: DB_POSTGRESDB_HOST
         value: db.kyxgkxmxjnybxrunmqyo.supabase.co
       - key: DB_POSTGRESDB_PORT
-        value: "5432"
+        value: 5432
       - key: DB_POSTGRESDB_DATABASE
         value: postgres
       - key: DB_POSTGRESDB_USER
