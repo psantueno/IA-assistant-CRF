@@ -23,12 +23,14 @@ services:
         value: "true"
       - key: N8N_RUNNERS_ENABLED
         value: "true"
+      - key: N8N_ENCRYPTION_KEY
+        value: "perrodemadera"
       - key: DB_TYPE
-        value: postgres
+        value: postgresdb
       - key: DB_POSTGRES_HOST
-        value: aws-0-sa-east-1.pooler.supabase.com
+        value: db.kyxgkxmxjnybxrunmqyo.supabase.co
       - key: DB_POSTGRES_PORT
-        value: "6543"
+        value: "5432"
       - key: DB_POSTGRES_DATABASE
         value: postgres
       - key: DB_POSTGRES_USER
