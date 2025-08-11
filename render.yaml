@@ -39,3 +39,5 @@ services:
         value: perrodemadera56
       - key: DB_POSTGRESDB_SSL_MODE
         value: require
+      - key: NODE_OPTIONS
+        value: "--dns-result-order=ipv4first"
